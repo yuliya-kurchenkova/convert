@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Convert</title>
+</head>
+
+<body>
+    <div class="holder">
+        <button id="clearButton" class="butn-clear">Clear</button>
+        <button id="clearButton2" class="butn-clear butn">Clear</button>
+        <div id="list" class="menu">
+            <span class="title">Choose color</span>
+            <ul>
+                <li class="itemBlack">Чёрный</li>
+                <li class="itemBlue"><button onclick="addBlue()">Синий</button></li>
+                <li class="itemRed"><button onclick="addRed()">Красный</button></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <textarea id="text" class="box"></textarea>
+        <button class="butn-convert" onclick="myFunction()">Convert</button>
+        <div id="transformText" class="box1"></div>
+    </div>
+    <script src="home.js"></script>
+</body>
+
+</html>
